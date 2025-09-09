@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 0;
-}
+    width: 100%;}
 .tab button {
     background-color: inherit;
     border: none;
