@@ -1,0 +1,35 @@
+body {
+    font-family: 'Brush Script MT', cursive;
+    background: #f4f7fa
+
+}
+.tab{
+    overflow: hidden;
+    background-color: #007acc;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+.tab button:hover {
+    background-color: #005f99;
+}
+.tabcontent{
+    display : none;
+    padding: 6px 12px;
+    border-top: none;
+    max-width:  750px;
+    margin : auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

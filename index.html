@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Resume</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="tab">
+            <button class="tablinks" onmouseover="openTab(event, 'About Me')" id="defaultOpen">About Me</button>
+            <button class="tablinks" onmouseover="openTab(event, 'Experience')" >Experience</button>
+            <button class="tablinks" onmouseover="openTab(event, 'Education')" >Education</button>
+            <button class="tablinks" onmouseover="openTab(event, 'Certifications')">Certifications</button>
+        </div>
+        <header>
+            <h1>Leela Krishna Paluru</h1>
+            <p>Email: leelakrishnapaluru@gmail.com</p>
+        </header>
+        <div id="Experience" class="tabcontent">
+            <h3>Experience</h3>
+            <ul>
+                <li><strong>IAM Engineer</strong>
+                    <ul>
+                        <li>Developed and maintained web applications using JavaScript, HTML, and CSS.</li>
+                        <li>Collaborated with cross-functional teams to define project requirements and deliverables.</li>
+                        <li>Implemented responsive design techniques to enhance user experience across devices.</li>
+                    </ul>
+                </li>
+                <li><strong>Intern at Kodnest</strong> (2019 - 2020)
+                    <ul>
+                        <li>Assisted in the development of client websites and applications.</li>
+                        <li>Conducted testing and debugging to ensure optimal performance.</li>
+                        <li>Participated in code reviews and team meetings.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="Education" class="tabcontent">
+            <h3>Education</h3>
+            <ul>
+                <li><strong>Bachelor of Technology in Computer Science</strong>, XYZ University (2016 - 2020)</li>
+                <li><strong>High School Diploma</strong>, ABC High School (2014 - 2016)</li>
+            </ul>
+        </div>
+        <div id="Certifications" class="tabcontent">
+            <h3>Certifications</h3>
+            <ul>
+                <li>Certified JavaScript Developer - 2021</li>
+                <li>Web Development Bootcamp - 2020</li>
+            </ul>
+        </div>
+    </body>
+</html>
